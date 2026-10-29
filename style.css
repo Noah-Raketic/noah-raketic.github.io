@@ -1,5 +1,6 @@
 body {
     max-width: 650px;
+    /* Comment because I think gh pages didn't update right*/
     margin: 0 auto; 
     padding: 0 20px;
 }
