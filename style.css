@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    border-radius: 15px; 
+    border-radius: 40px; 
 }
 
 #signal-card { 
@@ -23,5 +23,5 @@ body {
 .card-text {
     min-width: 0;
     overflow-wrap: anywhere;
-    padding: 50px;
+    padding: 15px;
 }
