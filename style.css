@@ -1,15 +1,23 @@
 body {
     max-width: 650px;
-    /* Comment because I think gh pages didn't update right*/
     margin: 0 auto; 
     padding: 0 20px;
 }
 
-.card {
+.contact-card {
     display: flex;
     align-items: center;
     gap: 20px;
     border-radius: 15px; 
+}
+
+#signal-card { 
+    background-color: #3b45fd;
+    color: white;
+}
+
+.invert-qr {
+    filter: brightness(0) invert(1);
 }
 
 .text {
