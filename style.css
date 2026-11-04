@@ -42,18 +42,15 @@ body {
   .card-text {
     display: flex;
     flex-direction: column;
-    gap: 12px;
   }
 
-  /* Hide the second paragraph containing the raw URL */
   #card-text-link {
     display: none;
   }
 
-  /* Optional: style the QR for mobile */
   .round-qr {
     padding: 10px;
-    width: 100%;
+    width: 20%;
     aspect-ratio: 1/1;
   }
 }
